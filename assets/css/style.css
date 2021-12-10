@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: darkslategrey;
+    padding: 20px 220px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    border-radius: 20px 20px;
+    border: 2px solid black;
+}
+/* Colori sfondo quadrati */
+.fizz_bc{
+    background-color: red;
+}
+.buzz_bc{
+    background-color: rgb(0, 255, 0);
+}
+.fizzbuzz_bc{
+    background-color: rgb(255, 255, 0);
+}
